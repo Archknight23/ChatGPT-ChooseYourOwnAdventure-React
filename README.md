@@ -1,43 +1,42 @@
-# Getting Started with Create React App
+# Creating a Web-based Choose Your Own Adventure MMO project
+Much of this code was created by ChatGPT, with refinement and variables added by us, as well as some tailwindscss choices where necessary.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## What's cool about it? 
+Besides that it was made with AI at the helm, it uses a MongoDB Atlas Cluster to store users' character info and login information as well as "scene" and NPC Data. The MVP would be to have a system where Admins/DMs could create Text Based Adventures and upload them for a User to be able to browse and start different experiences via text. Possibly create their own, and long term goals are to have a market system, a settlement/faction system, and online elements. 
 
-## Available Scripts
 
-In the project directory, you can run:
+> It's also powered by Chaos herself, and the development of this program may be streamed. 
 
-### `npm start`
+# FAQ
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## "Where can we catch live progress of this program?" 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can watch Yuki and I work on this project live on either:
 
-### `npm test`
+https://twitch.tv/chaosfoundry
+https://youtube.com/chaosfoundry
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+or on our Live Site at: 
 
-### `npm run build`
+https://chaosfoundry.co/video-streams 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[This is still heavily in development and is almost guaranteed to be full of profanity and other nonsense.]
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## "Where else can we follow you to ask you both some weird questions or follow up on us?"
 
-### `npm run eject`
+ >> https://twitter.com/Archknight23
+ 
+## "How Frequently will you two commit stuff?" 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+"Hehehe, as randomly and chaotically as Darling and me's schedule can allow. <3" - Yuki, 2022
+Yes...our schedules are in complete flux lately, but we'll do our best. Please feel free to fork and even develop scenes for this program as we go along. 
+Make sure to credit ChatGPT and its source, as well as us though. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Below is just some Boilerplate React stuff
+
 
 ## Learn More
 
